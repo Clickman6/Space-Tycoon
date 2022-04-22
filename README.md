@@ -1,6 +1,7 @@
 # Space-Tycoon
 
 Прототип данной игры разработвывался в рамках участия в Game Jam #4 от "Eccentric Games"
+
 [Demo](https://clickman6.github.io/Space-Tycoon/)
 
 **Тема:** Космос без фантастики
