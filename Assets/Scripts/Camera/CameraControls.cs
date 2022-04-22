@@ -43,7 +43,7 @@ public class CameraControls : Singleton<CameraControls> {
         Clamp();
 
         if (_state != StateControl.Freeze) {
-            transform.position = Vector3.Slerp(transform.position, _targetPosition, Time.deltaTime * _lerpRate);
+            transform.position = Vector3.Lerp(transform.position, _targetPosition, Time.deltaTime * _lerpRate);
         }
     }
 

@@ -38,7 +38,7 @@ public class CameraTargetMove : Singleton<CameraTargetMove> {
 
     private IEnumerator MoveToTarget() {
         for (float t = 0f; t < 1f; t += Time.deltaTime * 1.5f) {
-            transform.position = Vector3.Slerp(transform.position, _target, t);
+            transform.position = Vector3.Lerp(transform.position, _target, t);
 
             yield return null;
         }
