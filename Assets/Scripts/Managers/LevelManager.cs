@@ -10,7 +10,6 @@ namespace Managers {
         [Header("Main Settings")]
         [SerializeField] private BigFloat _money = 0;
         [SerializeField] private CurrencyInfo _currency;
-        [SerializeField] private int _startMoney;
 
         [Header("People")]
         private BigFloat _people = 1;
@@ -75,8 +74,6 @@ namespace Managers {
         }
 
         private void Start() {
-            _money = _startMoney;
-
             UpdateMoneyLabel();
             UpdatePeopleLabel();
             UpdateIncomeLabel();

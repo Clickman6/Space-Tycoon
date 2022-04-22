@@ -8567,10 +8567,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prestige: 1
   _money:
-    mantissa: 0
-    exponent: 0
+    mantissa: 1
+    exponent: 2
   _currency: {fileID: 11400000, guid: 25f0a05734b344678b3f87ef96421bf5, type: 2}
-  _startMoney: 0
   _personIncome: 1
   IncrementForPersonIncome: 0.1
   _lifeQuality: 1
